@@ -19,3 +19,5 @@ if __name__ == '__main__':
     x = input('Type number\n')
     print(x)
     print(type(x))
+    msg = input("Enter your name\n")
+    print("Your name is %s" % (msg))
