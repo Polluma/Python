@@ -1,4 +1,5 @@
 __author__ = 'Marcin'
+import add
 
 
 def simple_func(x):
@@ -21,3 +22,4 @@ if __name__ == '__main__':
     print(type(x))
     msg = input("Enter your name\n")
     print("Your name is %s" % (msg))
+    add.dodaj(10,5)
