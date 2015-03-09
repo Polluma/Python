@@ -1,5 +1,6 @@
 __author__ = 'Marcin'
 import add
+import sub
 
 
 def simple_func(x):
@@ -23,3 +24,4 @@ if __name__ == '__main__':
     msg = input("Enter your name\n")
     print("Your name is %s" % (msg))
     add.dodaj(10,5)
+    sub.odejmij(50,20)
